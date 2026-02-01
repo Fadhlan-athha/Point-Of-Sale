@@ -1,45 +1,64 @@
-# Miscellaneous
-*.class
+# ----------------------------------------------------------------Lx
+# Flutter & Dart (Krusial)
+# ----------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+# Abaikan file log dari Flutter
+logs/
 *.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
 
-# IntelliJ related
+# ----------------------------------------------------------------
+# Android (Penting untuk HP)
+# ----------------------------------------------------------------
+.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+# File kunci aplikasi (jangan sampai bocor ke GitHub)
+*.jks
+*.keystore
+
+# ----------------------------------------------------------------
+# Windows Desktop (Karena kamu ngoding di Windows)
+# ----------------------------------------------------------------
+**/windows/flutter/generated_plugin_registrant.*
+**/windows/flutter/generated_plugins.cmake
+# File hasil build Windows lainnya
+*.exe
+*.dll
+*.pdb
+
+# ----------------------------------------------------------------
+# VS Code (Editor yang kamu gunakan)
+# ----------------------------------------------------------------
+.vscode/
+# Kecuali jika kamu ingin berbagi konfigurasi debug dengan tim
+# !.vscode/launch.json
+
+# ----------------------------------------------------------------
+# IntelliJ / Android Studio
+# ----------------------------------------------------------------
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# ----------------------------------------------------------------
+# Keamanan & File Rahasia
+# ----------------------------------------------------------------
+.env*
+# File metadata yang tidak perlu
+.metadata
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# ----------------------------------------------------------------
+# Lain-lain (OS Junk)
+# ----------------------------------------------------------------
+.DS_Store
+Thumbs.db
