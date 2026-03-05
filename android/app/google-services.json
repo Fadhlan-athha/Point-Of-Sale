@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753606427943",
+    "project_id": "point-of-sale-247a7",
+    "storage_bucket": "point-of-sale-247a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753606427943:android:7e186f44dd7abc977cd502",
+        "android_client_info": {
+          "package_name": "com.example.pos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsty4AVQICLcJTUF3ECyH4M9AnK3cwNm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
